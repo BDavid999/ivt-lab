@@ -15,11 +15,7 @@ public class GT4500 implements SpaceShip {
     this.secondaryTorpedoStore = new TorpedoStore(10);
   }
 
-<<<<<<< Updated upstream
-  public boolean fireLaser(FiringMode firingMode) {
-=======
-  public boolean fireLaser(FiringMode firingMode) //branch-B edit {
->>>>>>> Stashed changes
+  public boolean fireLaser(FiringMode firingMode) //branch-A edit branch-B edit {
     // TODO not implemented yet
     return false;
   }
